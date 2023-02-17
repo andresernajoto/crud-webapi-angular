@@ -9,4 +9,4 @@ Run `dotnet run` for a dev server. Navigate to the generated `http://localhost:p
 You need to change your ConnectionString based on your <strong>Server Name</strong>. In my case I used a Docker Container with SqlServer 2022 on it, and accessed on DBeaver to use it GUI.
     
 ## DotNet Packages
-The packages used in the project are located in /CrudApi/CrudApi.csproj`. If doesn't load, you just need to remove in the CrudApi.csproj and reinstall it by the DotNet CLI
+The packages used in the project are located in `/CrudApi/CrudApi.csproj`. If doesn't load, you just need to remove in the CrudApi.csproj and reinstall it by the DotNet CLI
