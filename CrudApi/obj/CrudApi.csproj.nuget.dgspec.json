@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/sernajoto/Área de Trabalho/crud-angular-web-api/CrudApi/CrudApi.csproj": {}
+    "/home/sernajoto/Área de Trabalho/crud-webapi-angular/CrudApi/CrudApi.csproj": {}
   },
   "projects": {
-    "/home/sernajoto/Área de Trabalho/crud-angular-web-api/CrudApi/CrudApi.csproj": {
+    "/home/sernajoto/Área de Trabalho/crud-webapi-angular/CrudApi/CrudApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sernajoto/Área de Trabalho/crud-angular-web-api/CrudApi/CrudApi.csproj",
+        "projectUniqueName": "/home/sernajoto/Área de Trabalho/crud-webapi-angular/CrudApi/CrudApi.csproj",
         "projectName": "CrudApi",
-        "projectPath": "/home/sernajoto/Área de Trabalho/crud-angular-web-api/CrudApi/CrudApi.csproj",
+        "projectPath": "/home/sernajoto/Área de Trabalho/crud-webapi-angular/CrudApi/CrudApi.csproj",
         "packagesPath": "/home/sernajoto/.nuget/packages/",
-        "outputPath": "/home/sernajoto/Área de Trabalho/crud-angular-web-api/CrudApi/obj/",
+        "outputPath": "/home/sernajoto/Área de Trabalho/crud-webapi-angular/CrudApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/sernajoto/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,28 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

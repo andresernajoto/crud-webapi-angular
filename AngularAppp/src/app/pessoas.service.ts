@@ -5,7 +5,7 @@ import { Pessoa } from './Pessoa';
 
 const httpOptions = {
   headers: new HttpHeaders({
-    'Access-Control-Allow-Origin': 'https://localhost:7128/api/pessoas',
+    'Access-Control-Allow-Origin': 'https://localhost:7187/api/pessoas',
     'Access-Control-Allow-Headers': 'Content-Type,x-custom-header',
     'Access-Control-Allow-Methods': 'PUT,DELETE,GET,OPTIONS',
     'Content-Type': 'application/json'
@@ -16,7 +16,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class PessoasService {
-  url = 'https://localhost:7128/api/pessoas';
+  url = 'https://localhost:7187/api/pessoas';
 
   constructor(private http: HttpClient) { }
 
